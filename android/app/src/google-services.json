@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "640666311692",
+    "project_id": "emailandphoneauth-6ab6d",
+    "storage_bucket": "emailandphoneauth-6ab6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640666311692:android:14638fcd603a9da2522229",
+        "android_client_info": {
+          "package_name": "kimi.mdnoor.email_and_phone_auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640666311692-nd21s2ngdvlo36i19n900akn7qkkpe81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMJCGAaywbclRT5WUXEDqoe5x-k-BL_c8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640666311692-nd21s2ngdvlo36i19n900akn7qkkpe81.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

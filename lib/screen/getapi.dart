@@ -46,6 +46,7 @@ class _GetAPIState extends State<GetApi> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(),
         body: Padding(
       padding: const EdgeInsets.all(8.0),
       child: ListView(
@@ -64,14 +65,14 @@ class _GetAPIState extends State<GetApi> {
           Card(
               child: ListTile(
             leading: const Icon(Icons.access_alarm),
-            title: const Text('Fajar'),
-            subtitle: Text('$fajr'),
+            title: const Text('Imsak'),
+            subtitle: Text('$imsak'),
           )),
           Card(
               child: ListTile(
             leading: const Icon(Icons.access_alarm),
-            title: const Text('Imsak'),
-            subtitle: Text('$imsak'),
+            title: const Text('Fajar'),
+            subtitle: Text('$fajr'),
           )),
           Card(
               child: ListTile(
@@ -93,15 +94,16 @@ class _GetAPIState extends State<GetApi> {
           )),
           Card(
               child: ListTile(
+            leading: const Icon(Icons.sunny),
+            title: const Text('Sunset'),
+            subtitle: Text('$susnset'),
+          )),
+          Card(
+              child: ListTile(
             leading: const Icon(Icons.access_alarm),
             title: const Text('Maghrib'),
             subtitle: Text('$maghrib'),
-          )), Card(
-              child: ListTile(
-                leading: const Icon(Icons.sunny),
-                title: const Text('Sunset'),
-                subtitle: Text('$susnset'),
-              )),
+          )),
           Card(
               child: ListTile(
             leading: const Icon(Icons.access_alarm),
